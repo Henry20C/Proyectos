@@ -1,0 +1,417 @@
+body {
+    background-color: aqua;
+}
+.cuerpo {
+    background-color: #ffffbf;
+    height:290px;
+    width:210px;
+    position: absolute;
+    top: 250px;
+    left: 630px;
+    border-radius: 60% 60% 50% 50% / 60% 60% 90% 90%;
+    transform: rotate(7deg);
+    border: 4px solid black;
+}
+.ojos {
+    height: 10px;
+    width: 120px;
+    background-color: transparent;
+    position: absolute;
+    top: 65px;
+    left: 45px;
+}
+.ojoDerecho {
+    height: 12px;
+    width: 12px;
+    background-color: rgb(87, 40, 40);
+    position: relative;
+    left: 20px;
+    top: -1px;
+    border-radius: 50px;
+}
+.ojoIzquierdo {
+    height: 12px;
+    width: 12px;
+    background-color: rgb(87, 40, 40);
+    position: relative;
+    left: 65px;
+    top: 2px;
+    border-radius: 50px;
+}
+.nariz {
+    height: 30px;
+    width: 50px;
+    background-color: transparent;
+    position: relative;
+    top: 9px;
+    left: 5px;
+    border-radius: 60px 60px 60px 60px / 30px 30px 40px 40px;
+    border-color: black;
+    border-style: solid;
+    border-top: 1px;
+    transform: rotate(3deg);
+}
+.boca {
+    height: 70px;
+    width: 60px;
+    background-color: transparent;
+    position: absolute;
+    top: 14px;
+    left: 0px;
+    border-radius: 40px 40px 40px 40px / 50px 50px 50px 60px;
+    border-left: 2px solid #000;
+    transform: rotate(-82deg);
+}
+.sombrero {
+    height: 105px;
+    width: 165px;
+    background-color: black;
+    position: absolute;
+    left: -29px;
+    top: -150px;
+    border-radius: 50px 50px 0px 0px;
+    transform: rotate(5deg);
+}
+.rellenoSombrero1 {
+    height: 17px;
+    width: 165px;
+    position: relative;
+    background-color: white;
+    top: 92px;
+}
+.rellenoSombrero2 {
+    height: 31px;
+    width: 196px;
+    position: relative;
+    background-color: black;
+    top: 12px; 
+    left: -18px;
+    border-radius: 100px 100px 20px 10px;
+}
+.rellenoSombrero3 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: relative;
+    left: 70px;
+    top: -30px;
+    border-radius: 50px;
+}
+.pelo1 {
+    height: 30px;
+    width: 50px;
+    position: relative;
+    background: white;
+    top: -20px;
+    left: 187px;
+    border-radius: 100px 100px 0px 0px;
+    transform: rotate(65deg);
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+}
+.pelo2 {
+    height: 30px;
+    width: 45px;
+    position: relative;
+    background-color: white;
+    top: 3px;
+    left: 30px;
+    border-radius: 100px 100px 0px 0px;
+    transform: rotate(12deg);
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    border-top: 2px solid black;
+}
+.pelo3 {
+    height: 30px;
+    width: 50px;
+    position: relative;
+    background: white;
+    left: -79px;
+    top: 220px;
+    border-radius: 100px 100px 0px 0px;
+    transform: rotate(-148deg);
+    border-left: 0px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.pelo4 {
+    height: 31px;
+    width: 50px;
+    position: relative;
+    background: white;
+    top: 3px;
+    left: -38px;
+    border-radius: 100px 100px 0px 0px;
+    transform: rotate(-15deg);
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    border-top: 2px solid black;
+}
+.barba1 {
+    height: 35px;
+    width: 18px;
+    background-color: white;
+    position: relative;
+    left: 8px;
+    top: 94px;
+    border-radius: 100px 0px 0px 100px;
+    transform: rotate(18deg);
+}
+.barba2 {
+    height: 35px;
+    width: 18px;
+    background-color: white;
+    position: relative;
+    left: 15px;
+    top: 32px;
+    border-radius: 100px 0px 0px 100px;
+    transform: rotate(-45deg); 
+}
+.pantalon {
+    height: 140px;
+    width: 205px;
+    background-color: black;
+    position: relative;
+    top: -95px;
+    left: -194px;
+    border-radius: 0% 0% 30% 30% / 0% 0% 100% 100%;
+    transform: rotate(108deg);
+    border-left: 4px solid;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+}
+.zapatoDerecho {
+    height: 35px;
+    width: 130px;
+    background-color: black;
+    position: relative;
+    top: -299px;
+    left: -215px;
+    border-radius: 50px 0px 0px;
+    transform: rotate(100deg);
+}
+.rellenoZapatodr {
+    height: 10px;
+    width: 134px;
+    background-color: #572b00;
+    position: relative;
+    left: -4px;
+    top: 34px;
+}
+.zapatoIzquierdo {
+    height: 60px;
+    width: 150px;
+    background-color: black;
+    position: relative;
+    top: -30px;
+    left: 188px;
+    border-radius: 0px 0px 10px 50px;
+    transform: rotate(146deg);
+}
+.rellenoZapatoiz {
+    height: 31px;
+    width: 15px;
+    background-color: black;
+    position: relative;
+    left: 130px;
+    top: 41px;
+    transform: rotate(22deg);
+}
+.rellenoZapatoiz1 {
+    height: 10px;
+    width: 154px;
+    background-color: #572b00;
+    position: relative;
+    left: -151px;
+    top: -20px;
+    transform: rotate(-22deg);
+}
+.traje {
+    height: 180px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid white;
+    transform: rotate(84deg);
+    position: relative;
+    top: 9px;
+    left: -153px;
+}
+.corbata {
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    position: relative;
+    top: -95px;
+    left: -30px;
+    transform: rotate(-15deg);
+}
+.corbata1 {
+    height: 18px;
+    width: 20px;
+    background-color: red;
+    position: relative;
+    top: 35px;
+    left: 34px;
+    transform: rotate(-47deg);
+}
+.boton1 {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    position: relative;
+    left: -47px;
+    top: 5px;
+    border-radius: 50px;
+    transform: rotate(8deg);
+}
+.boton2 {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    position: relative;
+    left: 28px;
+    top: 55px;
+    border-radius: 50px;
+}
+.boton3 {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    position: relative;
+    left: 105px;
+    top: -80px;
+    border-radius: 50px;
+}
+.boton4 {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    position: relative;
+    left: -55px;
+    top: -20px;
+    border-radius: 50px;
+}
+.brazoIzquierdo {
+    height: 90px;
+    width: 0px;
+    border-left: 50px solid black;
+    border-right: 50px solid transparent;
+    border-top: 100px solid transparent;
+    transform: rotate(10deg);
+    position: relative;
+    top: 15px;
+    left: -138px;
+}  
+.brazoDerecho {
+    height: 85px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid black;
+    border-top: 100px solid transparent;
+    transform: rotate(219deg);
+    position: relative;
+    top: -257px;
+    left: -5px;
+}
+.mangaIzquierdo {
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    position: relative;
+    top: -124px;
+    left: -50px;
+} 
+.mangaDerecha {
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    position: relative;
+    top: -470px;
+    left: 49px;
+    transform: rotate(39deg);
+}
+.mano1 {
+    height: 15px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    left: -23px;
+    top: -150px;
+    border-radius: 0px 50px 50px 0px;
+    transform: rotate(84deg);
+}
+.mano2 {
+    height: 15px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    left: -3px;
+    top: 17px;
+    border-radius: 0px 50px 50px 0px;
+    transform: rotate(13deg);
+}
+.mano3 {
+    height: 15px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    left: 1px;
+    top: 16px;
+    border-radius: 0px 50px 50px 0px;
+    transform: rotate(2deg);
+}
+.mano4 {
+    height: 15px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    left: -15px;
+    top: -46px;
+    border-radius: 0px 50px 50px 0px;
+    transform: rotate(-70deg);
+}
+.manoDr1 {
+    height: 15px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    left: -360px;
+    top: -108px;
+    border-radius: 0px 50px 50px 0px;
+    transform: rotate(235deg);
+}
+.manoDr2 {
+    height: 15px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    left: -1px;
+    top: -15px;
+    border-radius: 0px 50px 50px 0px;
+    transform: rotate(-30deg);
+}
+.manoDr3 {
+    height: 15px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    left: -1px;
+    top: -18px;
+    border-radius: 0px 50px 50px 0px;
+    transform: rotate(-20deg);
+}
+.manoDr4 {
+    height: 15px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    left: 1px;
+    top: -17px;
+    border-radius: 0px 50px 50px 0px;
+    transform: rotate(-2deg);
+}
